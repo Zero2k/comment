@@ -1,7 +1,7 @@
 {
-    "name": "anax/comment",
+    "name": "vibe/comment",
     "type": "library",
-    "description": "Anax comment module.",
+    "description": "Vibe comment module.",
     "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
     "homepage": "https://dbwebb.se/anax",
     "license": "MIT",
@@ -14,11 +14,12 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/canax/comment/issues"
+        "issues": "https://github.com/zero2k/comment/issues"
     },
     "autoload": {
         "psr-4": { 
-            "Anax\\": "src/"
+            "Anax\\": "src/",
+            "Vibe\\": "src/"
         }
     },
     "require": {
