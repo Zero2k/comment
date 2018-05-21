@@ -30,12 +30,8 @@
         "anax/request": "^1.1",
         "anax/router": "^1.1",
         "anax/session": "^1.0",
-        "anax/textfilter": "^1.0",
         "anax/url": "^1.0",
-        "anax/view": "^1.0",
         "anax/database": "^1.1",
-        "anax/htmlform": "^1.1",
-        "mos/cimage": "^0.7.20",
-        "symfony/yaml": "^3.4"
+        "anax/htmlform": "^1.1"
     }
 }
