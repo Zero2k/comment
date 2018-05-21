@@ -1,6 +1,6 @@
 <?php
 
-namespace Zero2k\Gravatar;
+namespace Vibe\Gravatar;
 
 /**
  * Gravatar class to get gravatar from user emails.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zero2k\Comment;
+namespace Vibe\Comment;
 
 use \Anax\Database\ActiveRecordModel;
 

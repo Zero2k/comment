@@ -1,16 +1,16 @@
 <?php
 
-namespace Zero2k\Comment;
+namespace Vibe\Comment;
 
 use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
 use \Anax\DI\InjectionAwareInterface;
 use \Anax\DI\InjectionAwareTrait;
-use \Zero2k\Comment\HTMLForm\CreateForm;
-use \Zero2k\Comment\HTMLForm\EditForm;
-use \Zero2k\Comment\HTMLForm\DeleteForm;
-use \Zero2k\Comment\HTMLForm\UpdateForm;
-use \Zero2k\Gravatar\Gravatar;
+use \Vibe\Comment\HTMLForm\CreateForm;
+use \Vibe\Comment\HTMLForm\EditForm;
+use \Vibe\Comment\HTMLForm\DeleteForm;
+use \Vibe\Comment\HTMLForm\UpdateForm;
+use \Vibe\Gravatar\Gravatar;
 
 /**
  * A controller class.

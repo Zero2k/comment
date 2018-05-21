@@ -1,10 +1,10 @@
 <?php
 
-namespace Zero2k\Comment\HTMLForm;
+namespace Vibe\Comment\HTMLForm;
 
 use \Anax\HTMLForm\FormModel;
 use \Anax\DI\DIInterface;
-use \Zero2k\Comment\Comment;
+use \Vibe\Comment\Comment;
 
 /**
  * Form to delete an item.
