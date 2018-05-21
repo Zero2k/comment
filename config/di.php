@@ -6,7 +6,7 @@ return [
     "commentController" => [
         "shared" => true,
         "callback" => function () {
-            $obj = new \Vibe\Comment\CommentController();
+            $obj = new \Zero2k\Comment\CommentController();
             $obj->setDI($this);
             return $obj;
         }

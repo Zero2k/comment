@@ -1,7 +1,7 @@
 {
-    "name": "vibe/comment",
+    "name": "zero2k/comment",
     "type": "library",
-    "description": "Vibe comment module.",
+    "description": "Zero2k comment module.",
     "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
     "homepage": "https://dbwebb.se/anax",
     "license": "MIT",
