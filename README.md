@@ -14,19 +14,27 @@ Anax comment module.
 
 
 
-Usage
-------------------
-
-Short examples on how to use the module comment.
+## Usage
 
 
+#### Install with composer
+    composer require zero2k/comment
 
-License
-------------------
+#### Configure and Integrate the module
+
+    cp vendor/zero2k/comment/config/route2/* config/route2
+    cp vendor/zero2k/comment/config/database.php config/ (optional if you already have a database connection)
+    cp vendor/zero2k/comment/view/* view/
+
+##### Integrate the following code into you own installation (don't just copy the files with cp)
+
+    vendor/zero2k/comment/config/di.php to config/di.php
+    vendor/zero2k/comment/config/route2.php to config/route2.php
+    vendor/zero2k/comment/config/route2/comment.php config/route2/*
+
+## License
 
 This software carries a MIT license.
-
-
 
 ```
  .  
