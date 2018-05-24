@@ -1,5 +1,6 @@
 <?php
 namespace Vibe\Gravatar;
+
 /**
  * Unit test for Gravatar class
  */

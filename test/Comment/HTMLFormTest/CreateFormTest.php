@@ -12,7 +12,7 @@ class CreateCommentFormTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->di = new \Anax\DI\DIFactoryConfig("di.php");
+        $this->di = new \Anax\DI\DIFactoryConfig("diTest.php");
         $this->form = new CreateForm($this->di);
     }
 

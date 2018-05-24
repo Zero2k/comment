@@ -12,7 +12,7 @@ class DeleteCommentFormTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->di = new \Anax\DI\DIFactoryConfig("di.php");
+        $this->di = new \Anax\DI\DIFactoryConfig("diTest.php");
         $userId = 1;
         $this->form = new DeleteForm($this->di, $userId);
     }

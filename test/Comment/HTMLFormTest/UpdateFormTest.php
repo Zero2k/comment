@@ -12,7 +12,7 @@ class UpdateCommentFormTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->di = new \Anax\DI\DIFactoryConfig("di.php");
+        $this->di = new \Anax\DI\DIFactoryConfig("diTest.php");
         $commentId = 1;
         $userId = 1;
         $this->form = new UpdateForm($this->di, $commentId, $userId);
