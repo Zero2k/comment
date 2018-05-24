@@ -23,9 +23,9 @@ class CommentControllerTest extends \PHPUnit_Framework_TestCase
     /* public function testGetIndex()
     {
         $this->assertTrue(method_exists($this->commentController, $this->commentController->getIndex()));
-    }
+    } */
 
-    public function testGetPostCreateItem()
+    /* public function testGetPostCreateItem()
     {
         $this->assertTrue(method_exists($this->commentController, $this->commentController->getPostCreateItem()));
     } */

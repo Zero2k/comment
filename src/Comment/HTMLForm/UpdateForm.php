@@ -73,7 +73,7 @@ class UpdateForm extends FormModel
         $comment = new Comment();
         $comment->setDb($this->di->get("database"));
         $comment->find("id", $id);
-        if ($comment->userId === $userId) {
+        if ($comment->userId == $userId) {
             return $comment;
         }
     }
